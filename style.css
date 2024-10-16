@@ -1,0 +1,64 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+}
+
+
+
+@media (max-width: 1440px ) {
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+    
+    .content {
+        
+        text-align: center;
+        box-sizing: border-box;
+        margin: 10px;
+        padding: 20px;
+        background-color: hsl(0, 0%, 12%);
+        border-radius: 20px;
+        height: auto;
+    }
+    
+    .content .profile .country {
+        color: hsl(75, 94%, 57%);
+    }
+    
+    .content p {
+        font-size: 0.875rem;
+    }
+    
+    .container .content .social-media ul li {
+        list-style: none;
+        margin: 10px;
+    }
+    .container .content .social-media ul  {
+        padding: 0px;
+    }
+    
+    .container .content .social-media ul  li a {
+        padding: 5px;
+        width: 100%;
+        border-radius: 5px;
+        display: block;
+        color: hsl(0, 0%, 100%) ;
+        text-decoration: none;
+        background-color: hsl(0, 0%, 20%);
+        margin: auto 0;
+    }
+    .container .content .social-media ul  li a:hover {
+       background-color: hsl(75, 94%, 57%) ;
+       color: hsl(0, 0%, 12%);
+    }
+    
+    .content img {
+        display: block;
+        width: 50%;
+        border-radius: 100px ;
+        margin: 0 auto;
+    }
+}
